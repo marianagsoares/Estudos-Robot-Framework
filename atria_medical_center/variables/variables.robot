@@ -6,10 +6,10 @@ ${URL}  https://atriamedicalcenter.com.br/
 &{ELEMENTOS}
 ...    home=//div[contains(@data-id,'1cf5ee1')]
 ...    conceito=(//a[contains(.,'Conceito')])[1]
-...    diferenciais=(//a[contains(.,'Diferenciais')])[1]
-...    quemSomos=(//a[contains(.,'Quem Somos')])[1]
-...    estrutura=(//a[contains(.,'Estrutura')])[1]
-...    localizacao=(//a[contains(.,'Localização')])[1]
+...    diferenciais=(//a[contains(@class,'raven-menu-item raven-link-item raven-menu-item-active')])[3]
+...    estrutura=(//a[contains(.,'Estrutura')])[3]
+...    quemSomos=(//a[contains(.,'Quem Somos')])[3]
+...    localizacao=(//a[contains(.,'Localização')])[3]
 
 #SEÇÕES
 &{SECOES}      
