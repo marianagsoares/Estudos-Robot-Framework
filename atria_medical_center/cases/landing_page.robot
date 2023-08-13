@@ -3,15 +3,16 @@ Documentation    Essa suite testa a navegação entre as seções do site https:
 Resource          ../main.robot
 Suite Setup       Abrir o navegador
 Suite Teardown    Fechar o navegador
-Test Setup        Dado que o usuário está na página Home
 
 *** Test Cases ***
 CT001: Navegar para a seção Conceito
     [Documentation]    Testa a navegação para seção Conceito
     [Tags]    navegacao_entre_secoes
+    Dado que o usuário está na página Home
     Quando clicar no elemento ${ELEMENTOS.conceito}
     Então deve ser direcionado para a seção ${SECOES.conceito}
     E deve visualizar o ${TEXTOS_SECAO.conceito}
+
 
 CT002: Navegar para a seção Diferenciais 
     [Documentation]    Testa a navegação para seção Diferenciais
