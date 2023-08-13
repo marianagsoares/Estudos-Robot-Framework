@@ -12,6 +12,7 @@ ${SUBMIT_BUTTON}         xpath=//button[contains(.,'Acessar')]
 &{FEEDBACKS}    
 ...    credenciaisInvalidas=Email ou senha incorretos.
 ...    camposObrigatorios=Este campo deve ser preenchido
+...    formatoEmailInvalido=Formato de e-mail inválido
 
 #Textos da página
 ${TITULO_INICIO}         Início

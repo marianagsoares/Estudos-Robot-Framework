@@ -27,10 +27,10 @@ CT003: Efetuar login com e-mail inválido e senha válida
     [Documentation]     Testa a funcionalidade de login no site aulas.cubos.academy, ao ...
     ...    inserir email inválido e senha válida, resultando na não efetuação do login.
     [Tags]    login_sem_sucesso
-    Informar o e-mail "teste1@gmail.com" no campo e-mail
+    Informar o e-mail "testegmail.com" no campo e-mail
     Informar a senha "teste123" no campo senha
     Submeter formulario de login
-    Exibir feedback ${FEEDBACKS.credenciaisInvalidas}
+    Exibir feedback ${FEEDBACKS.formatoEmailInvalido}
 
 CT004: Efetuar login com campo e-mail em branco e senha válida
     [Documentation]    Testa a funcionalidade de login no site aulas.cubos.academy, ao ...
