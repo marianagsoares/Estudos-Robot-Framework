@@ -20,7 +20,8 @@ ${URL}  https://atriamedicalcenter.com.br/
 ...    localizacao=https://atriamedicalcenter.com.br/#localizacao
 
 #TEXTOS
-&{TEXTOS_SECAO}  
+&{TEXTOS_SECAO}
+...  home=ATRIA MEDICAL CENTER
 ...  conceito=Conceito 
 ...  diferenciais=DIFERENCIAIS
 ...  quemSomos=QUEM SOMOS
