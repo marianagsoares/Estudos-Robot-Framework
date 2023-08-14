@@ -3,16 +3,15 @@ Resource   ../main.robot
 
 *** Keywords ***
 Abrir o navegador
-    Open Browser    browser=${BROWSER}
+    Open Browser    browser=${BROWSER}    url=${URL}
     Maximize Browser Window
 Fechar o navegador
     Close Browser
 
-Dado que o usuário está na página Home
-    Go to    url=${URL}
-    Wait Until Element Is Visible    ${ELEMENTOS.home}
+Dado que o usuário está na seção ${ELEMENTO}
+    Wait Until Element Is Visible    ${ELEMENTO}
 
-Quando clicar no elemento ${ELEMENTO}
+Quando interagir com o elemento ${ELEMENTO}
     Wait Until Element Is Visible    ${ELEMENTO}
     Click Element    ${ELEMENTO}
  
