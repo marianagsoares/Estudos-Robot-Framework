@@ -6,12 +6,9 @@ ${URL}  https://atriamedicalcenter.com.br/
 &{ELEMENTOS}
 ...    home=//div[contains(@data-id,'1cf5ee1')]
 ...    conceito=(//a[contains(.,'Conceito')])[1]
-...    conceitoPagina=//h2[@class='elementor-heading-title elementor-size-default'][contains(.,'Conceito')]
 ...    diferenciais=(//a[contains(@class,'raven-menu-item raven-link-item raven-menu-item-active')])[3]
-...    diferenciaisPagina=//h2[@class='elementor-heading-title elementor-size-default'][contains(.,'DIFERENCIAIS')]
 ...    estrutura=(//a[contains(.,'Estrutura')])[3]
 ...    quemSomos=(//a[contains(.,'Quem Somos')])[3]
-...    queSomosPagina=//h2[@class='elementor-heading-title elementor-size-default'][contains(.,'QUEM SOMOS')]
 ...    localizacao=(//a[contains(.,'Localização')])[3]
 
 #SEÇÕES
@@ -23,7 +20,8 @@ ${URL}  https://atriamedicalcenter.com.br/
 ...    localizacao=https://atriamedicalcenter.com.br/#localizacao
 
 #TEXTOS
-&{TEXTOS_SECAO}  
+&{TEXTOS_SECAO}
+...  home=ATRIA MEDICAL CENTER
 ...  conceito=Conceito 
 ...  diferenciais=DIFERENCIAIS
 ...  quemSomos=QUEM SOMOS

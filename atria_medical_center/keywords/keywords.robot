@@ -8,8 +8,8 @@ Abrir o navegador
 Fechar o navegador
     Close Browser
 
-Dado que o usuário está na seção ${ELEMENTO}
-    Wait Until Element Is Visible    ${ELEMENTO}
+Dado que o usuário está na seção ${TEXTO_SECAO}
+    Wait Until Page Contains    ${TEXTO_SECAO}
 
 Quando interagir com o elemento ${ELEMENTO}
     Wait Until Element Is Visible    ${ELEMENTO}
